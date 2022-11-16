@@ -1,0 +1,5 @@
+<div class="container">
+  <h1>Add new review</h1>
+  <%= render("form", review: @review) %>
+  <%= link_to "Back to the restaurant", restaurant_path(@restaurant), :class => "mt-4 btn btn-secondary" %>
+</div>
